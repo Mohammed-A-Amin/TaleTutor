@@ -1,0 +1,110 @@
+.body {
+ 
+    background-color: #d6e0e7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 50%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+
+.h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.topicButton, .chapterButton {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.topicButton:hover, .chapterButton:hover {
+    background-color: #0056b3;
+}
+
+.themes {
+    display: flex;
+    gap: 30px;
+    
+}
+.span{
+    color:black;
+}
+
+.themes label {
+    text-align: center;
+}
+
+.themes input {
+    display: none;
+}
+
+.themes img {
+    width: 100px;
+    height: 150px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.themes input:checked + img {
+    border-color: #000;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #218838;
+}

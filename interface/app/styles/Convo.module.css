@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.body {
+    font-family: "MedievalSharp", cursive;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230521/pngtree-wallpapers-for-hogwarts-castle-for-fa-image_2683913.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chatContainer {
+    width: 70%;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    overflow: hidden;
+    color: #fff;
+}
+
+.endConversation {
+    align-self: flex-start;
+    margin: 10px;
+    padding: 5px 10px;
+    border: none;
+    background: none;
+    color: #ff6347;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.chatBox {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.botMessage,
+.userMessage {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.botMessage .avatar,
+.userMessage .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.userMessage .avatar {
+    background-color: #ff6347;
+}
+
+.botMessage {
+    flex-direction: row;
+}
+
+.userMessage {
+    flex-direction: row-reverse;
+}
+
+.botMessage .avatar {
+    margin-right: 10px;
+}
+
+.userMessage .avatar {
+    margin-left: 10px;
+}
+
+.botMessage p,
+.userMessage p {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    max-width: 80%;
+}
+
+.userMessage p {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.chatInput {
+    display: flex;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.chatInput input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.sendButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #4b0082;
+    color: white;
+    cursor: pointer;
+}
+
+.audioButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #4b0082;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
