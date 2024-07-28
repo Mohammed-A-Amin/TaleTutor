@@ -1,0 +1,55 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/styles/Home.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.Home_body__H_q3o {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(229,229,255,1) 0%, rgba(137,222,255,1) 100%, rgba(0,212,255,1) 100%);
+    text-align: center;
+}
+
+.Home_container__UZ9hw {
+    text-align: center;
+
+}
+
+.Home_h1__A6evR {
+    color: black;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.Home_p__aCzj9 {
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 30px;
+    color: black;
+}
+
+.Home_buttons__mEw_f {
+    display: flex;
+    padding: 15px 32px;
+    font-size: 30px;
+    color: black;
+    justify-content: center;
+    gap: 60px;
+}
+
+.Home_btn__PmTzm {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Home_btn__PmTzm:hover {
+    background-color: #ccc;
+}

@@ -1,0 +1,114 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/styles/Init.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.Init_body__1oOzS {
+ 
+    background-color: #d6e0e7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Init_container__UWzdp {
+    width: 50%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+
+.Init_h1__y6jJQ {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.Init_label__3ohuM {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.Init_input__xpdsy {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Init_buttonGroup__uHSfA {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.Init_topicButton__6dU7E, .Init_chapterButton__p8JD0 {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Init_topicButton__6dU7E:hover, .Init_chapterButton__p8JD0:hover {
+    background-color: #0056b3;
+}
+
+.Init_themes__h4jdf {
+    display: flex;
+    gap: 30px;
+    
+}
+.Init_span__xU9nT{
+    color:black;
+}
+
+.Init_themes__h4jdf label {
+    text-align: center;
+}
+
+.Init_themes__h4jdf input {
+    display: none;
+}
+
+.Init_themes__h4jdf img {
+    width: 100px;
+    height: 150px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Init_themes__h4jdf input:checked + img {
+    border-color: #000;
+}
+
+.Init_button__ucrP5 {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Init_button__ucrP5:hover {
+    background-color: #218838;
+}
+
