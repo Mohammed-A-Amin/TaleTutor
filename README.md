@@ -64,6 +64,14 @@ We have ambitious plans to grow our mission of educating students through captiv
 - **Expanded Theme Library**: Introducing more characters and settings to cater to diverse student preferences.
 - **Emotion Recognition**: Expanding our AI model to recognize and respond to emotional changes in students.
 - **Enhanced Interaction**: Integrating student voice input directly into the AI’s voice output for better synergy.
+- 
+
+
+👨‍👨‍👦‍👦 Team
+Rohit Raju
+Niranjan Cholendiran
+Carter Chen
+Mohammed Amin
 
 Learn more about us on [Devpost](https://devpost.com/software/taletutor)!
 
