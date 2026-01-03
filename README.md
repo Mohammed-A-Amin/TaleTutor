@@ -3,11 +3,11 @@
 
 [![TaleTutor Demo](https://img.youtube.com/vi/jX9IUWnVgH0/0.jpg)](https://www.youtube.com/watch?v=jX9IUWnVgH0)
 
-## 🌟 Inspiration
+## Inspiration
 
 The inspiration for TaleTutor came from the desire to make learning more engaging and effective for students. Traditional educational methods often fail to connect topics holistically and relate concepts to real-world scenarios, leading to disinterest and fragmented understanding. Drawing from research on narrative learning and the transformative power of storytelling, we envisioned an AI-driven platform that uses immersive narratives to captivate students' imaginations. TaleTutor strives to bridge the gap between abstract concepts and practical applications, making education both fun and meaningful.
 
-## 🎓 What It Does
+## What It Does
 
 TaleTutor is a narrative-based learning system that serves three primary purposes:
 1. **Relating Material to Real-World Scenarios**: Connecting academic content with practical applications.
@@ -34,7 +34,7 @@ TaleTutor is a narrative-based learning system that serves three primary purpose
 ![image](https://github.com/user-attachments/assets/ecd7b17f-9695-47ee-af42-5dcaf76c1854)
 
 
-## 🛠️ How We Built It
+## How We Built It
 
 TaleTutor utilizes a LangChain-supported GPT-3.5 LLM to retrieve PDF content uploaded by teachers, convert it into a vectorstore, and perform RAG operations based on student queries. The system processes RAG output with another GPT-3.5 LLM that acts as a router, deciding whether to proceed with narrative building or knowledge retrieval. The GPT-3.5 LLM then generates narratives using zero-shot prompting. The system also manages off-topic queries by guiding students back on track or notifying teachers for relevant follow-up.
 
