@@ -50,13 +50,13 @@ TaleTutor utilizes a LangChain-supported GPT-3.5 LLM to retrieve PDF content upl
 - **Next.js**: Frontend framework for the user interface.
 - **Axios**: Library for making HTTP requests to the server.
 
-## 🏆 Accomplishments 
+## Accomplishments 
 
 - **Top 10 at UC Berkeley AI Hackathon**: Proud to have been selected and placed in the top 10.
 - **Innovative Approach**: Conceptualizing and implementing an innovative narrative-based learning system.
 - **Team Collaboration**: Building a diverse team and developing a full-stack application in under 24 hours.
 
-## 🌈 What's Next for TaleTutor
+## What's Next for TaleTutor
 
 We have ambitious plans to grow our mission of educating students through captivating characters and unique settings:
 
@@ -64,10 +64,9 @@ We have ambitious plans to grow our mission of educating students through captiv
 - **Expanded Theme Library**: Introducing more characters and settings to cater to diverse student preferences.
 - **Emotion Recognition**: Expanding our AI model to recognize and respond to emotional changes in students.
 - **Enhanced Interaction**: Integrating student voice input directly into the AI’s voice output for better synergy.
-- 
 
 
-👨‍👨‍👦‍👦 Team
+## Team
 Rohit Raju
 Niranjan Cholendiran
 Carter Chen
